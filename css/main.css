@@ -3,8 +3,12 @@ html {
   background-color: #8f974c;
 }
 
-.home {
-  background-image: url("../images/cat-3.jpg");
+p {
+  color: #606723;
+}
+
+.logo {
+  width: 64px;
 }
 
 .masthead {
@@ -27,15 +31,23 @@ li a:hover {
   border-style: solid;
 }
 
-.btn:not(.btn-ghost) {
-  background-color: #8d483b;
-  border-color: #8d483b;
+.btn {
+  border-radius: 6px;
+  border-width: 4px;
+  border-color: #8f974c;
+  border-style: solid;
+  color: #000;
+  text-decoration: none;
 }
 
-.btn:not(.btn-ghost):hover {
-  background-color: #e88681;
+.btn:hover {
+  background-color: #fff;
+  border-radius: 10px;
+  border-width: 4px;
+  border-color: #8f974c;
+  border-style: solid;
 }
 
-.btn-ghost:hover {
-  background-color: rgba(180, 220, 255, .5);
+footer {
+  color: #bdcb46;
 }
