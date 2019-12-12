@@ -1,18 +1,22 @@
 html {
-  font-family: "Muli", sans-serif;
-  background-color: #8f974c;
-}
-
-p {
-  color: #606723;
+  font-family: Muli, sans-serif;
 }
 
 .logo {
   width: 64px;
 }
 
+.small-flex {
+  max-width: 50%;
+  max-height: 70%;
+}
+
 .masthead {
-  background-color: #bdcb46;
+  background-color: #333;
+}
+
+p {
+  color: #bb4420;
 }
 
 .animal {
@@ -27,27 +31,22 @@ p {
 li a:hover {
   border-radius: 10px;
   border-width: 4px;
-  border-color: #8f974c;
+  border-color: #bb4420;
   border-style: solid;
 }
 
 .btn {
   border-radius: 6px;
   border-width: 4px;
-  border-color: #8f974c;
+  border-color: #bb4420;
   border-style: solid;
   color: #000;
   text-decoration: none;
 }
 
 .btn:hover {
-  background-color: #fff;
+  background-color: #cbe4f5;
   border-radius: 10px;
   border-width: 4px;
-  border-color: #8f974c;
-  border-style: solid;
-}
-
-footer {
-  color: #bdcb46;
+  border-color: #bb4420;
 }

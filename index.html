@@ -2,7 +2,9 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>Animal Rescue Website</title>
+  <title>Animal Rescue Homepage</title>
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="icon" type="image/png" href="favicon-196.png">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link rel="icon" href="favicon.ico">
   <link rel="stylesheet" href="css/modules.css">
@@ -19,31 +21,30 @@
   </ul>
 
   <header role="banner" class="masthead">
-      <div class="grid grid-middle">
-        <div class="logo-center unit xs-1 s-1 m-1-2 l-1-2">
-          <h1 class="text-center push-0">
+    <div class="grid grid-middle">
+      <div class="logo-center unit xs-1 s-1 m-1-2 l-1-2">
+        <h1 class="text-center push-0">
             <img class="logo valign-middle" src="images/cat.svg" alt="">
             <span class="ib valign-middle push-0 yotta animal">Animal Rescue</span>
           </h1>
-        </div>
-
-        <div class="nav unit xs-1 s-1 m-1-2 l-1-2 pad-t-1 pad-b-1">
-          <nav class="wrapper" role="navigation" id="nav" tabindex="0">
-            <ul class="list-group-inline mega push-0 text-center">
-              <li><a class="ib gutter-1-2" href="index.html">Home</a></li>
-              <li><a class="ib gutter-1-2" href="rescues.html">Rescue</a></li>
-              <li><a class="ib gutter-1-2" href="adopt.html">Adopt</a></li>
-            </ul>
-          </nav>
-        </div>
       </div>
-    </header>
 
+      <div class="nav unit xs-1 s-1 m-1-2 l-1-2 pad-t-1 pad-b-1">
+        <nav class="wrapper" role="navigation" id="nav" tabindex="0">
+          <ul class="list-group-inline mega push-0 text-center">
+            <li><a class="ib gutter-1-2" href="index.html">Home</a></li>
+            <li><a class="ib gutter-1-2" href="rescues.html">Rescue</a></li>
+            <li><a class="ib gutter-1-2" href="adopt.html">Adopt</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
 
   <main role="main" id="main" tabindex="0">
 
     <section class="home section-light section-bg embed embed-16by9" id="home">
-      <img class="embed-item text-center" src="images/cat-3.jpg" alt="" aria-details="image of cat">
+      <img class="embed-item text-center" src="images/cat-3.jpg" alt="" aria-details="image-of-cat">
       <div class="absolute pin-tl island-2 max-length text-center">
         <h2 class="push-1-2 exa">​​MAKING FREEDOM HAPPEN ONE DOG AT A TIME</h2>
         <p class="push-1-2">We are dedicated to rescuing homeless and abandoned dogs, dogs from shelters and taking in desperate owner surrenders when they can no longer care for them. </p>
@@ -51,21 +52,30 @@
       </div>
     </section>
 
-    <section class="satellites section-dark section-bg embed embed-16by9" id="satellites">
-      <div class="absolute pin-c text-center island-1-2 w-1 max-length">
-        <h2 class="push-1-4">Tools & Machines</h2>
-        <p class="push-1-2">Scientists use lots of tools & machines to help them find all the different galaxies in the known universe.</p>
-        <a class="btn" href="/learn-satellites/">Learn about the specialized satellites</a>
+    <section class="rescues section-light section-bg embed embed-16by9" id="rescues">
+      <img class="embed-item text-center" src="images/cat-4.jpg" alt="" aria-details="image-of-cat">
+      <div class="absolute pin-tl island-2 max-length text-center">
+        <h2 class="push-1-2 exa">​​MAKING FREEDOM HAPPEN ONE DOG AT A TIME</h2>
+        <p class="push-1-2">We are dedicated to rescuing homeless and abandoned dogs, dogs from shelters and taking in desperate owner surrenders when they can no longer care for them. </p>
+        <a class="btn btn-ghost bold" href="rescues.html">See cats</a>
       </div>
     </section>
 
+    <section class="rescues section-light section-bg embed embed-16by9" id="adopt">
+      <img class="embed-item text-center" src="images/cat-5.jpg" alt="" aria-details="image-of-cat">
+      <div class="absolute pin-tl island-2 max-length text-center">
+        <h2 class="push-1-2 exa">​​MAKING FREEDOM HAPPEN ONE DOG AT A TIME</h2>
+        <p class="push-1-2">We are dedicated to rescuing homeless and abandoned dogs, dogs from shelters and taking in desperate owner surrenders when they can no longer care for them. </p>
+        <a class="btn btn-ghost bold" href="adopt.html">See cats</a>
+      </div>
+    </section>
+  </main>
 
-  <footer class="footer gutter-1-2" role="contentinfo" tabindex="0">
-    <div class="wrapper">
+  <footer role="contentinfo">
+    <div class="footer pad-t-1-2 pad-b-1-2 text-center">
       <small class="milli">Ziai Animal Rescue, Inc. © 2019</small>
     </div>
   </footer>
-</main>
 
 </body>
 </html>
